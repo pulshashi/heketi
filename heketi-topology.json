@@ -6,7 +6,7 @@
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "idoku1"
+                                "19.45.8.111"
                             ],
                             "storage": [
                                 "19.45.8.111"
@@ -22,7 +22,7 @@
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "idoku2"
+                                "19.45.8.112"
                             ],
                             "storage": [
                                 "19.45.8.112"
@@ -38,7 +38,7 @@
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "idoku3"
+                                "19.45.8.113"
                             ],
                             "storage": [
                                 "19.45.8.113"
@@ -54,7 +54,7 @@
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "idoku4"
+                                "19.45.8.114"
                             ],
                             "storage": [
                                 "19.45.8.114"
