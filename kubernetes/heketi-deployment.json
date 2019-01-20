@@ -73,7 +73,7 @@
             },
             "containers": [
               {
-                "image": "heketi/heketi:5",
+                "image": "heketi/heketi:8",
                 "imagePullPolicy": "Always",
                 "name": "heketi",
                 "env": [
