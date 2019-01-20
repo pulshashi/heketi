@@ -6,50 +6,66 @@
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "node1.example.com"
+                                "idoku1"
                             ],
                             "storage": [
-                                "1.1.1.1"
+                                "19.45.8.111"
                             ]
                         },
                         "zone": 1
                     },
                     "devices": [
-                        "/dev/SystemVG/kube-volume"
+                        "/dev/sdb"
                     ]
                 },
                 {
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "node2.example.com"
+                                "idoku2"
                             ],
                             "storage": [
-                                "1.1.1.2"
+                                "19.45.8.112"
                             ]
                         },
-                        "zone": 2
+                        "zone": 1
                     },
                     "devices": [
-                        "/dev/SystemVG/kube-volume"
+                        "/dev/sdb"
                     ]
                 },
                 {
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "node3.example.com"
+                                "idoku3"
                             ],
                             "storage": [
-                                "1.1.1.3"
+                                "19.45.8.113"
                             ]
                         },
-                        "zone": 3
+                        "zone": 1
                     },
                     "devices": [
-                        "/dev/SystemVG/kube-volume"
+                        "/dev/sdb"
                     ]
-                }
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "idoku4"
+                            ],
+                            "storage": [
+                                "19.45.8.114"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/sdb"
+                    ]
+                }               
             ]
         }
     ]
