@@ -196,7 +196,7 @@ kubectl apply -f heketi-storage.json
 
 Now we have heketi database migrated to `heketidbstorage` glusterfs replicated volume and now we can remove local heketi database from all glusterfs servers and mount glusterfs volume to shared location `/data/heketi/db`
 ```
-for NODE in node1 node2 node3; do ssh root@${NODE} "rm -f /data/heketi/db/heketi.db && mount.glusterfs ${NODE}:/heketidbstorage /data/heketi/db"; done
+for NODE in node1 node2 node3; do ssh root@${NODE} "mount.glusterfs ${NODE}:/heketidbstorage /data/heketi/db"; done
 ```
 
 In order to make mount persistent we have to append following lines into the `/etc/rc.local` file on all glusterfs nodes (in our example node1, node2 and node3)
