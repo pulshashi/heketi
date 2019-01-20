@@ -18,7 +18,7 @@
           "traefik.backend.weight": "10",
           "traefik.enable": "true",
           "traefik.frontend.entryPoints": "http,https",
-          "traefik.frontend.rule": "Host:heketi-api.example.com",
+          "traefik.frontend.rule": "Host:19.45.8.111",
           "traefik.tags": "kubernetes"
         }
       },
@@ -31,7 +31,8 @@
           {
             "name": "heketi",
             "port": 8080,
-            "targetPort": 8080
+            "targetPort": 8080,
+            "nodePort": 8080
           }
         ]
       }
